@@ -1,4 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to the SunSSC OS Deployment Guide
+### Using F.O.G. (Free Open-source Ghost)
+
+### Required BIOS
+- Secure Boot disabled
+- PXE enabled
+- Network card at top of boot priority
 
 You can use the [editor on GitHub](https://github.com/adigitalself/FOG/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
