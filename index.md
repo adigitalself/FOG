@@ -1,10 +1,15 @@
 ## Welcome to the SunSSC OS Deployment Guide
 ### Using F.O.G. (Free Open-source Ghost)
 ![FOG](./maxresdefault.jpg)
-### Required BIOS
+### Required BIOS Config
 - Secure Boot disabled
 - PXE enabled
 - Network card at top of boot priority
+
+### Register the Computer's in F.O.G.
+1. In the FOG PXE menu, select "Perform Host 
+
+### 
 
 You can use the [editor on GitHub](https://github.com/adigitalself/FOG/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
