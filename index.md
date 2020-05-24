@@ -1,6 +1,6 @@
 ## Welcome to the SunSSC OS Deployment Guide
 ### Using F.O.G. (Free Open-source Ghost)
-![FOG](https://github.com/adigitalself/FOG/blob/master/maxresdefault.jpg)
+![FOG](maxresdefault.jpg)
 ### Required BIOS
 - Secure Boot disabled
 - PXE enabled
