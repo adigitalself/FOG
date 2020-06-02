@@ -1,48 +1,45 @@
 ## Welcome to the SunSSC OS Deployment Guide
 ### Using F.O.G. (Free Open-source Ghost)
 ![FOG](./maxresdefault.jpg)
-### Required BIOS Config
-- Secure Boot disabled
-- PXE enabled
-- Network card at top of boot priority
+
+### Pre-Requisites
+- A new hostname for the computer
+- Correct BIOS settings
+- Ethernet connection to 192.168.16.0/21 subnet
+- Recommend doing immediately after receiving from Dell
+
+### Required BIOS Config (May differ between models)
+- Secure Boot **disabled**
+- UEFI Boot Path Security set to **Always,Except Internal HDD&PXE**
+- Integrated NIC: **Enable UEFI Network Stack**
+- Onboard NIC **enabled w/PXE** and at top of Boot Sequence
+- SATA Operation set to **AHCI**
 
 ### Register the Computer's in F.O.G.
-1. In the FOG PXE menu, select "Perform Host 
+1. If you know the computer's MAC address, register the host at http://fogproject/fog
+2. If you don't know the MAC address, continue to 3
+3. Set the correct BIOS settings
+4. Once the computer boots into NIC PXE ROM, select _Perform Full Host Registration and Inventory_
 
-### 
+### Registration and Image Deployment
+1. Select _Perform Full Host Registration and Inventory_ in the FOG PXE boot screen
+2. "Enter hostname for this computer": Enter your chosen new hostname
+3. "Enter the image ID to associate with computer (? for listing)": Select W10ProUEFI (1) or W10ProLegacy (2) for a sysprepped image.
+4. "Would you like to associate this host with groups?": N
+5. "Would you like to associate this host with snapins?": N
+6. "Would you like to associate a product key to this host?": N
+7. "Would you like this host to join a domain, (using default settings)?": Y
+8. "Enter the primary user for this computer": (leave blank)
+9. "Enter the other tag for this computer": (leave blank)
+10. "Would you like to deploy image to this computer now?": Y
+11. Enter username/password
 
-You can use the [editor on GitHub](https://github.com/adigitalself/FOG/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Software Deployment
+- FOG will join the computer with your chosen hostname to "sunssc.local\_SUNSSC\PDQ" OU in AD
+- PDQ will deploy 7zip, Adobe, Chrome, etc. to computer
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Next Steps
+- Move the computer to the needed domain & OU
+- Write an AD description for computer
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/adigitalself/FOG/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+_Written June 2nd, 2020 by DK_
