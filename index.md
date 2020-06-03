@@ -2,6 +2,8 @@
 ### Using F.O.G. (Free Open-source Ghost)
 ![FOG](./maxresdefault.jpg)
 
+## [Video of a image/software deployment in action](https://web.microsoftstream.com/video/e0257dac-b739-4541-8de1-fa4f72231292)
+
 ### Pre-Requisites
 - A new hostname for the computer
 - Correct BIOS settings
