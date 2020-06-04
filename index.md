@@ -18,10 +18,14 @@
 - Onboard NIC enabled w/PXE and **at top of Boot Sequence** (_this may need a reboot to see in the boot list_)
 
 ### Image Deployment
-The new computer should now boot into the PXE fog menu (you have three seconds!)
+The new computer should now boot into the PXE fog menu (you have three seconds before it boots :p)
+
 Select _Perform Full Host Registration and Inventory_ in the menu
+
 "Enter hostname for this computer": 
+
     - Enter your chosen new hostname
+    
 3. "Enter the image ID to associate with computer (? for listing)": Select W10UEFI (3) for a sysprepped Windows 10 Professional image.
 4. "Would you like to associate this host with groups?": N
 5. "Would you like to associate this host with snapins?": N
