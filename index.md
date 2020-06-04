@@ -74,10 +74,10 @@ Enter username/password:
 - You are done until the computer is being deployed!
 
 
-### Final Steps
-- Place computer object in the correct Active Directory OU and department
+### Remaining steps before customer fulfillment
+- When the request comes in for a new station, place the computer in the correct AD domain, department, and OU.
 - Enter a meaningful description in AD and in the asset management system 
-- Install software that need licenses (e.g. anti-virus, Office, remote assist tools, vpn, etc.)
+- Device-based licensed software also need to be installed (e.g. office, anti-virus, remote assist tools, vpn, etc.)
 
 
 ### Final Thoughts
