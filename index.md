@@ -14,12 +14,16 @@
 ```
 - UEFI Boot Path Security:
     - **Always,Except Internal HDD&PXE**
+    
 - Integrated NIC: 
-    - **Enable UEFI Network Stack**
+        - **Enable UEFI Network Stack**
+        
 - Secure Boot:
     - **disabled**
+    
 - SATA Operation:
     - **AHCI**
+    
 - Onboard NIC:
     - enabled w/PXE and **at top of Boot Sequence** (_may need a reboot to see in the boot list after enabling_)
 ```
