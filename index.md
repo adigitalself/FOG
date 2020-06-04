@@ -8,7 +8,7 @@
 - A new hostname for the computer
 - Correct BIOS settings
 - Ethernet connection to 192.168.16.0/21 subnet
-- Recommend doing immediately after receiving from Dell
+- Recommend doing relatively soon after delivery
 
 ### Required BIOS Config (May differ between models)
 ```
@@ -73,6 +73,14 @@ Enter username/password:
 - Place computer object in the correct Active Directory OU and department
 - Enter a meaningful description in AD and in the asset management system 
 - Install software that need licenses (e.g. anti-virus, Office, remote assist tools, vpn, etc.)
+
+
+### Final Thoughts
+The benefits of elimating time sinkholes are obvious :]
+
+A unified configuration makes things predictable for us, and makes the workstations interchangeable for the customers. Our attention is less diluted on unique cases and support requests will take shorter time with uniform machines. 
+
+Developers will benefit because it will reduce testing and bug fixing complexity.
 
 _Written June 2nd, 2020 by DK_
 _Updated June 4th, 2020_
