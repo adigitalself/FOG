@@ -4,6 +4,11 @@
 
 ## [Video of a image/software deployment in action](https://web.microsoftstream.com/video/e0257dac-b739-4541-8de1-fa4f72231292)
 
+### F.O.G. is an open-source OS imaging solution that works over network
+**Benefits**
+- Can clone or write the whole operating system drive without booting into that drive.
+- Can deploy a new prepped Win 10 pro OS in five to ten minutes with just an ethernet cable. It will then auto change hostname and join domain while pdq finishes the rest.
+
 ### Pre-Requisites
 - A new hostname for the computer
 - Correct BIOS settings
