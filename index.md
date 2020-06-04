@@ -76,11 +76,11 @@ Enter username/password:
 
 
 ### Final Thoughts
-The benefits of elimating time sinkholes are obvious :]
+- The benefits of elimating time sinkholes are obvious :]
 
-A unified configuration makes things predictable for us, and makes the workstations interchangeable for the customers. Our attention is less diluted on unique cases and support requests will take shorter time with uniform machines. 
+- A unified configuration makes things predictable for us, and makes the workstations interchangeable for the customers. Our attention is less diluted on unique cases and support requests will take shorter time with uniform machines. 
 
-Developers will benefit because it will reduce testing and bug fixing complexity.
+- _Developers_ will benefit because it will reduce testing and bug fixing complexity. It will allow relatively easy self-service imaging for developers.
 
 _Written June 2nd, 2020 by DK_
 _Updated June 4th, 2020_
