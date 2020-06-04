@@ -11,15 +11,18 @@
 - Recommend doing immediately after receiving from Dell
 
 ### Required BIOS Config (May differ between models)
-- Secure Boot **disabled**
 - UEFI Boot Path Security set to **Always,Except Internal HDD&PXE**
 - Integrated NIC: **Enable UEFI Network Stack**
-- Onboard NIC **enabled w/PXE** and at top of Boot Sequence
+- Secure Boot **disabled**
 - SATA Operation set to **AHCI**
+- Onboard NIC enabled w/PXE and **at top of Boot Sequence**
+
+### Image Deployment
+1. The new computer should now boot into the PXE fog menu (you have three seconds!)
+2. Select _
+
 
 ### Register the Computer's in F.O.G.
-1. If you know the computer's MAC address, register the host at http://fogproject/fog
-2. If you don't know the MAC address, continue to 3
 3. Set the correct BIOS settings
 4. Once the computer boots into NIC PXE ROM, select _Perform Full Host Registration and Inventory_
 
