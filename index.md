@@ -12,11 +12,16 @@
 
 ### Required BIOS Config (May differ between models)
 ```
-- UEFI Boot Path Security set to **Always,Except Internal HDD&PXE**
-- Integrated NIC: **Enable UEFI Network Stack**
-- Secure Boot **disabled**
-- SATA Operation set to **AHCI**
-- Onboard NIC enabled w/PXE and **at top of Boot Sequence** (_this may need a reboot to see in the boot list_)
+- UEFI Boot Path Security:
+    - **Always,Except Internal HDD&PXE**
+- Integrated NIC: 
+    - **Enable UEFI Network Stack**
+- Secure Boot:
+    - **disabled**
+- SATA Operation:
+    - **AHCI**
+- Onboard NIC:
+    - enabled w/PXE and **at top of Boot Sequence** (_may need a reboot to see in the boot list after enabling_)
 ```
 
 ### Image Deployment
