@@ -15,7 +15,7 @@
 - Integrated NIC: **Enable UEFI Network Stack**
 - Secure Boot **disabled**
 - SATA Operation set to **AHCI**
-- Onboard NIC enabled w/PXE and **at top of Boot Sequence**
+- Onboard NIC enabled w/PXE and **at top of Boot Sequence** (_this may need a reboot to see in the boot list_)
 
 ### Image Deployment
 The new computer should now boot into the PXE fog menu (you have three seconds!)
