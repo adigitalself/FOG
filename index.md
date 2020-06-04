@@ -27,21 +27,34 @@
 ### Image Deployment
 The new computer should now boot into the PXE fog menu (you have three seconds before it boots :p)
 
-Select _Perform Full Host Registration and Inventory_ in the menu
+Select _Perform Full Host Registration and Inventory_ in the menu. Example below for a sysprepped Windows 10 Pro 2004 UEFI image deployment that will also join AD at the end.
 
-"Enter hostname for this computer": 
+```
+_Perform Full Host Registration and Inventory_
 
-    - Enter your chosen new hostname
-    
-3. "Enter the image ID to associate with computer (? for listing)": Select W10UEFI (3) for a sysprepped Windows 10 Professional image.
-4. "Would you like to associate this host with groups?": N
-5. "Would you like to associate this host with snapins?": N
-6. "Would you like to associate a product key to this host?": N
-7. "Would you like this host to join a domain, (using default settings)?": Y
-8. "Enter the primary user for this computer": (leave blank)
-9. "Enter the other tag for this computer": (leave blank)
-10. "Would you like to deploy image to this computer now?": Y
-11. Enter username/password
+Enter hostname for this computer: SSCD777
+
+Enter the image ID to associate with computer (? for listing): ?
+- W10UEFI (3)
+
+Enter the image ID to associate with computer (? for listing): 3
+
+Would you like to associate this host with groups? n
+
+Would you like to associate this host with snapins?: n
+
+Would you like to associate a product key to this host?: n
+
+Would you like this host to join a domain, (using default settings)?: y
+
+Enter the primary user for this computer:
+
+Enter the other tag for this computer:
+
+Would you like to deploy image to this computer now?: y
+
+Enter username/password:
+```
 
 ### Software Deployment
 - FOG will join the computer with your chosen hostname to "sunssc.local\_SUNSSC\PDQ" OU in AD
