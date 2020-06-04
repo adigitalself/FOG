@@ -67,7 +67,7 @@ Enter username/password:
 
 ### Software Deployment
 - FOG will join the computer with your chosen hostname to "sunssc.local\_SUNSSC\PDQ" OU in AD
-- PDQ will deploy 7zip, Adobe, Chrome, Report Requirements (Sql Clr & .net 2010), dell firmware updates.
+- PDQ will deploy 7zip, Adobe, Chrome, Report Requirements (Sql Clr & .net 2010), dell firmware updates, and AX 2009.
 - Computer should get the rest of the settings from GPOs and windows updates from WSUS.
 - Check activation status to be sure.
 - Label the computer.
