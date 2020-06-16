@@ -3,6 +3,7 @@
 ![FOG](./maxresdefault.jpg)
 
 ## [Video of a image/software deployment in action](https://web.microsoftstream.com/video/e0257dac-b739-4541-8de1-fa4f72231292)
+## [How to capture a disk](./capture.md)
 
 ### F.O.G. is an open-source OS imaging solution that works over network
 **Benefits**
